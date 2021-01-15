@@ -58,7 +58,7 @@
         </span>
         <span *ngIf="siteSelected">
           <div class="help-text">
-            {{ this.siteName }}
+            {{ this.siteName }} (test data)
             <span *ngIf="currentUser.username != ''">
               <a mat-raised-button color="accent" id="newIceJamButton" style="font-weight: bold;" routerLink="/addEvent"
                 *ngIf="siteClicked">

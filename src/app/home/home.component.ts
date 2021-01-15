@@ -232,7 +232,7 @@ export class HomeComponent implements OnInit {
 
         let popupContent = '';
 
-        popupContent = popupContent + '<h3>' + String(siteresults[sites]['name']) + '</h3>' +
+        popupContent = popupContent + '<h3>' + String(siteresults[sites]['name']) + ' (test data)</h3>' +
           '<span class="popupLabel"><b>State</b>:</span> ' + String(siteresults[sites]['state']) + '<br/>' +
           '<span class="popupLabel"><b>County</b>:</span> ' + String(siteresults[sites]['county']) + '<br/>' +
           '<span class="popupLabel"><b>River</b>:</span> ' + String(siteresults[sites]['riverName']) + '<br/>' +
